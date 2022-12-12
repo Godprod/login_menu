@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="form_container">
+        <form class="form" action="https://fom.in.ua/echo">
+          <div class="cards_switch">
+            <input type="checkbox" id="switch">
+            <label for="switch"><span>Вход</span>
+              <span>Регистрация</span></label>
+          </div>
+          <h1>Вход</h1>
+          <label class="textbox_maill">
+            <input type="text" placeholder="Введите E-mail" name="email" />
+          </label>
+          <label class="textbox_pass">
+            <input type="password" placeholder="Пароль" name="password" />
+          </label>
+          <div class="checkbox">
+            <input type="checkbox" class="checkbox_input" id="checkbox_1" name="remember_me"/>
+            <label class="checkbox_label" for="checkbox_1">Запомнить меня</label>
+            <a href="#">Забыли пароль?</a>
+          </div>
+          <input class="btn" type="submit" value="Войти" />
+          <div class="force">
+            <p>Еще нет аккаунта?</p>
+            <a href="#">Зарегистрироваться</a>
+          </div>
+          <div class="social">
+            <p>Или войдите через</p>
+            <ul class="social_ul">
+                  <li class="hover_li"> <a href="#"><svg class="icon_1">
+                    <use xlink:href="svg/sprite.svg#inst"></use></svg></a></li>
+                    <li class="hover_li"><a href="#"><svg class="icon">
+                    <use xlink:href="svg/sprite.svg#fbk"></use></svg></a></li>
+                <li class="hover_li"><a href="#"><svg class="icon">
+                    <use xlink:href="svg/sprite.svg#link"></use></svg></a></li>
+            </ul>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
